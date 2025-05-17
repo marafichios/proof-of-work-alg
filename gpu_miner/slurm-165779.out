@@ -1,0 +1,22 @@
+WARNING: Environment variable TMPDIR already has value [/export/home/acs/stud/m/mara.fichios], will not forward new value [/tmp] from parent process environment
+INFO:    fuse: warning: library too old, some operations may not work
+INFO:    underlay of /etc/localtime required more than 50 (76) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (387) bind mounts
+make[1]: Entering directory '/export/home/acs/stud/m/mara.fichios/asc-public/assignments/2-cuda_proof_of_work/gpu_miner'
+Running test test2...
+./miner test2
+DEBUG: bloc 1 → Merkle_GPU=7e79c9e4dbeb394d2f2225b2075d9b645686d0d17f89a9dcdcda1781653cf6b4
+DEBUG: am minat blocul 1, nonce=1068273
+DEBUG: bloc 2 → Merkle_GPU=898fb78e4c24bbe5f9210569f623c6987d0b47ace5716bad7b0c9c6a2665024d
+DEBUG: am minat blocul 2, nonce=1247749
+DEBUG: bloc 3 → Merkle_GPU=aa34e2938a51d55fe876b77b02350d93907df39442064e0fa1739085a10e70d3
+DEBUG: am minat blocul 3, nonce=5315241
+DEBUG: bloc 4 → Merkle_GPU=1ed965c05ebe87380b1862347bd028df21ba4b6cf2970425019d65bcc6dc680b
+DEBUG: am minat blocul 4, nonce=8571577
+DEBUG: bloc 5 → Merkle_GPU=6d3d6defa39fa1b8aed51e61aa08d4b27dc2851fb73cbb93bffb512c74134d31
+DEBUG: am minat blocul 5, nonce=2521808
+DEBUG: bloc 6 → Merkle_GPU=2c7b77b959da1c98a6cf605608b43777f9b33935e7e1c9e1291ab83b8bd7b0e8
+DEBUG: am minat blocul 6, nonce=1402566
+Generating blockchain for test2
+Finished!
+make[1]: Leaving directory '/export/home/acs/stud/m/mara.fichios/asc-public/assignments/2-cuda_proof_of_work/gpu_miner'

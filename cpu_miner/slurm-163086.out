@@ -1,0 +1,8 @@
+WARNING: Environment variable TMPDIR already has value [/export/home/acs/stud/m/mara.fichios], will not forward new value [/tmp] from parent process environment
+INFO:    fuse: warning: library too old, some operations may not work
+INFO:    underlay of /etc/localtime required more than 50 (76) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (387) bind mounts
+make[1]: Entering directory '/export/home/acs/stud/m/mara.fichios/asc-public/assignments/2-cuda_proof_of_work/cpu_miner'
+Running test test3...
+./miner test3
+slurmstepd: error: *** JOB 163086 ON xl270-wn161 CANCELLED AT 2025-05-15T22:39:21 DUE TO TIME LIMIT ***

@@ -1,0 +1,19 @@
+WARNING: Environment variable TMPDIR already has value [/export/home/acs/stud/m/mara.fichios], will not forward new value [/tmp] from parent process environment
+INFO:    fuse: warning: library too old, some operations may not work
+INFO:    underlay of /etc/localtime required more than 50 (76) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (387) bind mounts
+make[1]: Entering directory '/export/home/acs/stud/m/mara.fichios/asc-public/assignments/2-cuda_proof_of_work/gpu_miner'
+nvcc -I../include -dc -Xcompiler -Wall -c src/utils.cu -o src/utils.o
+src/utils.cu(314): error: type name is not allowed
+          uint32_t sz = min<uint32_t>(batch, max_nonce - base + 1);
+                            ^
+
+src/utils.cu(314): warning #174-D: expression has no effect
+          uint32_t sz = min<uint32_t>(batch, max_nonce - base + 1);
+                                      ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+1 error detected in the compilation of "src/utils.cu".
+make[1]: *** [../Makefile:61: src/utils.o] Error 2
+make[1]: Leaving directory '/export/home/acs/stud/m/mara.fichios/asc-public/assignments/2-cuda_proof_of_work/gpu_miner'

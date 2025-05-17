@@ -1,0 +1,16 @@
+WARNING: Environment variable TMPDIR already has value [/export/home/acs/stud/m/mara.fichios], will not forward new value [/tmp] from parent process environment
+INFO:    fuse: warning: library too old, some operations may not work
+INFO:    underlay of /etc/localtime required more than 50 (76) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (387) bind mounts
+make[1]: Entering directory '/export/home/acs/stud/m/mara.fichios/asc-public/assignments/2-cuda_proof_of_work/gpu_miner'
+Running test test2...
+./miner test2
+DEBUG: am minat blocul 1, nonce=943459
+DEBUG: am minat blocul 2, nonce=37276
+DEBUG: am minat blocul 3, nonce=58778
+DEBUG: am minat blocul 4, nonce=697738
+DEBUG: am minat blocul 5, nonce=1511194
+DEBUG: am minat blocul 6, nonce=521935
+Generating blockchain for test2
+Finished!
+make[1]: Leaving directory '/export/home/acs/stud/m/mara.fichios/asc-public/assignments/2-cuda_proof_of_work/gpu_miner'

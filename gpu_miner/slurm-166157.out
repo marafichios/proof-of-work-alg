@@ -1,0 +1,43 @@
+WARNING: Environment variable TMPDIR already has value [/export/home/acs/stud/m/mara.fichios], will not forward new value [/tmp] from parent process environment
+INFO:    fuse: warning: library too old, some operations may not work
+INFO:    underlay of /etc/localtime required more than 50 (76) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (387) bind mounts
+make[1]: Entering directory '/export/home/acs/stud/m/mara.fichios/asc-public/assignments/2-cuda_proof_of_work/gpu_miner'
+nvcc -I../include -dc -Xcompiler -Wall -c src/utils.cu -o src/utils.o
+src/utils.cu(250): error: identifier "c_block_prefix" is undefined
+          memcpy(shared_block, c_block_prefix, c_prefix);
+                               ^
+
+src/utils.cu(250): error: argument of type "BYTE *" is incompatible with parameter of type "size_t"
+          memcpy(shared_block, c_block_prefix, c_prefix);
+                                               ^
+
+src/utils.cu(258): error: expression must have integral or unscoped enum type
+          shared_block[c_prefix + i] = nonce_str[i];
+                       ^
+
+src/utils.cu(261): error: a value of type "BYTE *" cannot be used to initialize an entity of type "size_t"
+      size_t total_len = c_prefix + nlen;
+                         ^
+
+src/utils.cu(268): error: a value of type "BYTE *" cannot be used to initialize an entity of type "int"
+      int zeros = c_difficulty;
+                  ^
+
+src/utils.cu(301): error: identifier "c_block_prefix" is undefined
+      cudaMemcpyToSymbol(c_block_prefix, block_content, current_length);
+                         ^
+
+src/utils.cu(311): error: type name is not allowed
+          uint32_t sz = min<uint32_t>(batch, max_nonce - base + 1);
+                            ^
+
+src/utils.cu(311): warning #174-D: expression has no effect
+          uint32_t sz = min<uint32_t>(batch, max_nonce - base + 1);
+                                      ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+
+7 errors detected in the compilation of "src/utils.cu".
+make[1]: *** [../Makefile:61: src/utils.o] Error 2
+make[1]: Leaving directory '/export/home/acs/stud/m/mara.fichios/asc-public/assignments/2-cuda_proof_of_work/gpu_miner'

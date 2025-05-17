@@ -1,0 +1,13 @@
+WARNING: Environment variable TMPDIR already has value [/export/home/acs/stud/m/mara.fichios], will not forward new value [/tmp] from parent process environment
+INFO:    fuse: warning: library too old, some operations may not work
+INFO:    underlay of /etc/localtime required more than 50 (76) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (387) bind mounts
+make[1]: Entering directory '/export/home/acs/stud/m/mara.fichios/asc-public/assignments/2-cuda_proof_of_work/gpu_miner'
+nvcc -I../include -dc -Xcompiler -Wall -c src/utils.cu -o src/utils.o
+src/utils.cu(313): error: "batch" has already been declared in the current scope
+      const uint32_t batch = 1<<20;
+                     ^
+
+1 error detected in the compilation of "src/utils.cu".
+make[1]: *** [../Makefile:61: src/utils.o] Error 2
+make[1]: Leaving directory '/export/home/acs/stud/m/mara.fichios/asc-public/assignments/2-cuda_proof_of_work/gpu_miner'
