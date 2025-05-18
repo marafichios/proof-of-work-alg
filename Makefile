@@ -1,6 +1,6 @@
 SRC_DIR ?= src
 EXEC = miner
-COMPILER = nvcc
+COMPILER = gcc
 
 ifndef COMPILER
 $(error COMPILER is not defined)

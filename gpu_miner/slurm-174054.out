@@ -1,0 +1,32 @@
+WARNING: Environment variable TMPDIR already has value [/export/home/acs/stud/m/mara.fichios], will not forward new value [/tmp] from parent process environment
+INFO:    fuse: warning: library too old, some operations may not work
+INFO:    underlay of /etc/localtime required more than 50 (76) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (387) bind mounts
+make[1]: Entering directory '/export/home/acs/stud/m/mara.fichios/asc-public/assignments/2-cuda_proof_of_work/gpu_miner'
+Running test test3...
+./miner test3
+DEBUG: bloc 1 → Merkle_GPU=3b484249c63e42dad584342b478e2c5828c60418adbe3f3507096d426dc05405
+DEBUG: am minat blocul 1, nonce=306595740
+DEBUG: bloc 2 → Merkle_GPU=274559b77cb0f3e771cedc1d13db0aebda647672b212e5fe73bd48f5658809b1
+DEBUG: am minat blocul 2, nonce=77457731
+DEBUG: bloc 3 → Merkle_GPU=14d16d00277afc23168072274b985b7016b27f979422670cf7ca75f1753868b8
+DEBUG: am minat blocul 3, nonce=266092792
+DEBUG: bloc 4 → Merkle_GPU=a4902439ed26a6ce6e57cea84ed46bfd827697885fb3fd12066a521d172adddc
+DEBUG: am minat blocul 4, nonce=327939689
+DEBUG: bloc 5 → Merkle_GPU=683c43b99d34efd5ca08fe263465a70fd6ddb9937b8724b4f854922038284829
+DEBUG: am minat blocul 5, nonce=282875934
+DEBUG: bloc 6 → Merkle_GPU=5b0decd91c926926a52812cd2564764509028f9c4b0b847582816b0112603078
+DEBUG: am minat blocul 6, nonce=169857780
+DEBUG: bloc 7 → Merkle_GPU=5e0bec129d0a7121e3220e41596717250a9263e542d23aeeadd665c20fa59322
+DEBUG: am minat blocul 7, nonce=349485382
+DEBUG: bloc 8 → Merkle_GPU=f1bb6fa656bea54f44ca7518428f28838504d9ebc962d2e7342eb6f624056f44
+DEBUG: am minat blocul 8, nonce=673944999
+DEBUG: bloc 9 → Merkle_GPU=143b65e2d7b1171bebb2abe7d9cff12ecf48ae9aa7a6edcdd680b24d8a673243
+DEBUG: am minat blocul 9, nonce=202339361
+DEBUG: bloc 10 → Merkle_GPU=0ff1cafdc12fdedcd3c5921247515ae59dded32a0919d43dc0ed219c539dafdf
+DEBUG: am minat blocul 10, nonce=17513515
+DEBUG: bloc 11 → Merkle_GPU=4247449553f299f95f0b1091e79f4da69ffe713e15ca2935f24edf81d9d2ef73
+DEBUG: am minat blocul 11, nonce=274745582
+Generating blockchain for test3
+Finished!
+make[1]: Leaving directory '/export/home/acs/stud/m/mara.fichios/asc-public/assignments/2-cuda_proof_of_work/gpu_miner'

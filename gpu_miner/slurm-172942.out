@@ -1,0 +1,30 @@
+WARNING: Environment variable TMPDIR already has value [/export/home/acs/stud/m/mara.fichios], will not forward new value [/tmp] from parent process environment
+INFO:    fuse: warning: library too old, some operations may not work
+INFO:    underlay of /etc/localtime required more than 50 (76) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (387) bind mounts
+make[1]: Entering directory '/export/home/acs/stud/m/mara.fichios/asc-public/assignments/2-cuda_proof_of_work/gpu_miner'
+Running test test4...
+./miner test4
+DEBUG: bloc 1 → Merkle_GPU=edff735b62b37d1afe12e3dcaf3df4da978c857f1ad8f3a8b98c4464fbf0c11c
+DEBUG: am minat blocul 1, nonce=33865
+DEBUG: bloc 2 → Merkle_GPU=ed865ee13c3cdbb2382e3dffab25c95591fbdebaed58c5efed27778114964e4d
+DEBUG: am minat blocul 2, nonce=4050
+DEBUG: bloc 3 → Merkle_GPU=606f0d682afbbe8a242e48d77a1d93ef9156dc2d6508ff652da15896d77216b7
+DEBUG: am minat blocul 3, nonce=166127
+DEBUG: bloc 4 → Merkle_GPU=176af74af3739a441b9731697c08031efe9d6c8ff231ea17d8e682fddbb3426e
+DEBUG: am minat blocul 4, nonce=8760
+DEBUG: bloc 5 → Merkle_GPU=677c766218ca233951352ede91d4abea58690ca9b08ed59ad39a2a23825d4848
+DEBUG: am minat blocul 5, nonce=7978
+DEBUG: bloc 6 → Merkle_GPU=2c513f573a1e76fa2fa6b5c2382bd6badcb58f88fd41dac30d7413b9f2fc09db
+DEBUG: am minat blocul 6, nonce=48865
+DEBUG: bloc 7 → Merkle_GPU=d48c16533ab85a79438413f6d5d155b834621d92bc1c7c447c8851cc2c576f25
+DEBUG: am minat blocul 7, nonce=6240
+DEBUG: bloc 8 → Merkle_GPU=733c7aa96f038390e693936869bd9bcf4d7bbb8e5d59a18d863f37905fb6293e
+DEBUG: am minat blocul 8, nonce=32947
+DEBUG: bloc 9 → Merkle_GPU=0e7bd47430195293c73c2a480a1b14187b6dbeff37b477e9442d070d91cc74b0
+DEBUG: am minat blocul 9, nonce=98065
+DEBUG: bloc 10 → Merkle_GPU=38248f1726546451e5f3990f676b857a64d232c002bd06d1ea50ca8609ebfcd4
+DEBUG: am minat blocul 10, nonce=48738
+Generating blockchain for test4
+Finished!
+make[1]: Leaving directory '/export/home/acs/stud/m/mara.fichios/asc-public/assignments/2-cuda_proof_of_work/gpu_miner'
